@@ -1,0 +1,72 @@
+.background_div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bgImg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  animation: fadeIn 0.5s;
+}
+.div_clock h1 {
+  color: white;
+  font-size: 80px;
+}
+
+.input_div input {
+  background-color: rgba(255, 255, 255, 0);
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  width: 320px;
+  color: white;
+  font-size: 30px;
+}
+.loc_info-div {
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  width: 10%;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-right: 30px;
+}
+.logout-div {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 20px;
+}
+.logout-button {
+  border-radius: 50%;
+}
+
+.white {
+  color: white;
+}
+.yellow {
+  color: yellow;
+}
+.visible {
+  display: flex;
+}
+.hidden {
+  display: none;
+}
+.mg_bt-30 {
+  margin-bottom: 30px;
+}
